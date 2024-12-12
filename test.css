@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+font-family: 'poppins', sans-serif;
+box-sizing: border-box;
+
+}
+body{
+width: 100%;
+height: 100vh;
+   background-image:linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)) ,url(background.png);
+background-size: cover;
+background-position: center;
+padding: 10px 8PX;
+margin: 0 ;
+}
+nav{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 4px;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul{
+    list style: none;
+    width: 100%;
+    text-align:right;
+    padding-right:60PX;
+}
+   
+nav ul li{
+    display: inline-block;
+    margin: 10PX 20PX;
+    
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.botn {
+    background-color:#f5168d ;
+    color:white;
+align-items: center;
+padding: 10PX 20PX;
+display:flex;
+border:0;
+outline: 0;
+font-weight: 500;
+border-radius: 5PX;
+cursor:pointer;
+}
+.botn img{
+    width: 20px;
+    margin-right:10PX;
+}
+.contente{
+    color: #fff;
+    justify-content: space-between;
+
+    margin: 120PX 10PX 40PX 60PX ;
+    max-width: 620PX;
+
+}
+.contente h1{
+    font-size: 70PX;
+    font-weight: 600;
+    color: #fff;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+.contente form{
+    display:flex;
+    align-items: center;
+    background: #fff;
+    padding:10px;
+    margin-top: 30PX;
+    border-radius: 5PX;
+}
+.contente form input{
+    border:0;
+    outline:0;
+    width:100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.contente form .botn{
+    padding: 10px 30PX;
+    font-size: 15pt;
+}
+
+
+
+
